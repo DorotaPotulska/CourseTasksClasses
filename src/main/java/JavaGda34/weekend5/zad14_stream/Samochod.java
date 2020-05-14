@@ -1,0 +1,16 @@
+package JavaGda34.weekend5.zad14_stream;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.ToString;
+
+@AllArgsConstructor
+@ToString
+@Getter
+public class Samochod {
+    protected String marka;
+    protected String kolor;
+    protected String model;
+    protected double cena;
+    protected int wiek;
+}
